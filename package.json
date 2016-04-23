@@ -1,0 +1,17 @@
+{
+  "name": "bot-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tom",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css-js": "0.0.8",
+    "bootstrap": "^4.0.0-alpha.2",
+    "browser-serialport": "^2.0.3"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Bot Code",
+  "description": "NodeBots Code Editor",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "serial",
+    "unlimitedStorage",
+    "http://*/",
+    "https://*/",
+    "*://*/",
+    "tts",
+    "notifications",
+    "storage",
+    "videoCapture",
+    "audioCapture"
+  ],
+  "sandbox": {
+    "pages": ["sandbox.html"]
+  },
+  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" },
+  "sockets": {
+    "tcp": {
+      "connect": "*:*"
+    }
+  }
+}
